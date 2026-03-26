@@ -1,0 +1,99 @@
+body {
+  background-color: hsl(0, 0%, 5%);
+  color: white;
+}
+
+nav {
+  background-color: rgb(107, 20, 49);
+  color: white;
+  padding: 24px 48px;
+  margin: 0;
+  backdrop-filter: blur(12px);
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+  color: rgb(173, 133, 138);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  font-size: large;
+}
+
+nav ul li a:hover {
+  background-color: rgb(180, 91, 111);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.hero img {
+  width: 100vw;
+  height: 500px;
+}
+
+.grid-section {
+  padding: 20px;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  padding: 30px;
+
+}
+
+.grid {
+  background-color: rgb(105, 47, 47);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 16px;
+  gap: 10px;
+  min-height: 160px;
+  font-size: x-large;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  transition: ease 0.2s;
+}
+
+.grid:hover{
+  transform: translate(3.5px);
+  background-color: rgb(114, 57, 57);
+}
+
+.grid a {
+  font-size: x-large;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background-color: hsl(0, 0%, 10%);
+  border-radius: 10px;
+}
+
+section {
+  padding: 10px 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  
+}
